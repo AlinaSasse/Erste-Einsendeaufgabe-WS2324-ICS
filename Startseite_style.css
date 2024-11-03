@@ -1,0 +1,42 @@
+body {
+  background-image: url("bg.jpg");
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: PaleVioletRed;
+  margin-left: 220px; /*Einzug von Links*/
+  font-style: italic;/*Schrfitart, siehe 4.3.2*/
+  color: #FFF0F5;
+  line-height: 120%;
+  width: 200mm;
+}
+/* zu Beginn erstmal keine Sammeleigenschaften in der Datei!*/
+h1{
+  font-style: oblique; /*Schriftstil, siehe 4.3.2*/
+  color: LightPink;
+  font-size: 50px;
+  line-height: 1;
+  white-space: normal;
+  text-indent: 50px; /*ermöglicht den Einzug nach rechts*/
+}
+
+/**/
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+/**/
+nav a {
+  color: #A9A9A9;
+}
+/**/
+textarea {
+  font-family: Arial, sans-serif;
+  background-color: SeaShell;
+  border: 3px solid;
+  padding: 15px;
+  width: 30%;
+
+}
+
+/*insgesamt keine festgelegte Spezifizität, da noch nicht genug Übung --> siehe 4.2.14*/

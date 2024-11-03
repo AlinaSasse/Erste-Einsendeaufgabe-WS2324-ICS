@@ -1,0 +1,42 @@
+body {
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #00004d;
+  margin-left: 220px; /*Einzug von Links*/
+  font-style: italic;/*Schrfitart, siehe 4.3.2*/
+  color: #FFF0F5;
+  line-height: 120%;
+  width: 200mm;
+}
+/* zu Beginn erstmal keine Sammeleigenschaften in der Datei!*/
+h1{
+  font-style: oblique; /*Schriftstil, siehe 4.3.2*/
+  color: LightPink;
+  font-size: 50px;
+  line-height: 1;
+  white-space: normal;
+  text-indent: 50px; /*ermöglicht den Einzug nach rechts*/
+}
+
+h2{
+  color: MintCream;
+  width: 170mm; /*Länge des Zeile, siehe 4.2.15*/
+  padding: 2px;
+  margin: 3px;
+  margin-top: 50px;
+  text-align: center; /*horizontale Ausrichtung, siehe 4.3.4*/
+}
+
+.back-button {
+  color: LightPink;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+  text-indent: 50px
+}
+.back-button:hover {
+  text-decoration: underline;
+}
+/*insgesamt keine festgelegte Spezifizität, da noch nicht genug Übung --> siehe 4.2.14*/

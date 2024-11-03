@@ -1,0 +1,51 @@
+body {
+  background-image: url("bg.jpg");
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: PaleVioletRed;
+  margin-left: 220px; /*Einzug von Links*/
+  font-style: italic;/*Schrfitart, siehe 4.3.2*/
+  color: #FFF0F5;
+  line-height: 120%;
+  width: 200mm;
+}
+/* zu Beginn erstmal keine Sammeleigenschaften in der Datei!*/
+h1{
+  font-style: oblique; /*Schriftstil, siehe 4.3.2*/
+  color: LightPink;
+  font-size: 50px;
+  line-height: 1;
+  white-space: normal;
+  text-indent: 50px; /*ermöglicht den Einzug nach rechts*/
+}
+
+h2 {
+    color: MintCream;
+    width: 55mm;
+    border-top: 3px solid transparent;
+    border-right: 3px solid #C0C0C0;
+    border-bottom: 3px solid #C0C0C0;
+    border-left: 3px solid #C0C0C0;
+    padding: 2px;
+    margin: 3px;
+    margin-top: 50px;
+    text-align: center;   
+
+}
+
+h2:hover {
+    color: darkcyan;
+    /* der mouseover-Effekt -muss in einen extra Block, da der Rahmen sonst überschrieben wird */
+}
+
+textarea { /*Eingabemaske*/
+  font-family: Arial, sans-serif;
+  background-color: SeaShell;
+  border: 3px solid;
+  padding: 15px;
+  width: 30%;
+
+}
+
+/*insgesamt keine festgelegte Spezifizität, da noch nicht genug Übung --> siehe 4.2.14*/
